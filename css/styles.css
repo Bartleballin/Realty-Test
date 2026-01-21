@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f8f8;
+}
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav ul li {
+    margin: 10px 15px;
+}
+nav ul li a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #007bff;
+    color: #fff;
+}
+.section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.guarantee { background-color: #fff; text-align: center; }
+.processes { background-color: #f0f0f0; text-align: center; }
+.specialists { background-color: #fff; }
+.testimonial {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+.testimonial cite {
+    display: block;
+    text-align: right;
+    font-style: italic;
+    margin-top: 10px;
+}
+.statistics { text-align: center; background-color: #f0f0f0; }
+.stats {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.stat {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    width: 200px;
+}
+.stat .number { display: block; font-size: 24px; font-weight: bold; }
+.stat .rating { display: block; font-size: 18px; color: #ffc107; }
+.sell { text-align: center; background-color: #fff; }
+.agent-directory { text-align: center; background-color: #f0f0f0; }
+.welcome { background-color: #fff; }
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+footer nav ul { justify-content: center; }
+footer nav ul li a { color: #fff; }
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+a.button:hover { background-color: #0056b3; }
+table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+td, th { padding: 8px; border: 1px solid #ddd; }
+form { max-width: 600px; margin: 0 auto; }
+label { display: block; margin-top: 10px; }
+input, textarea, select { width: 100%; padding: 8px; margin-top: 5px; }
