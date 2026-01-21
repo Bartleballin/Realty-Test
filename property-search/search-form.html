@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Property Search</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/property-search/search-form/">Advanced Search</a></li>
+      <li><a href="/property-search/results/?searchtype=3">Search by Map</a></li>
+      <li><a href="/property-search/property-tracker/">Property Tracker</a></li>
+      <li><a href="/featured-listings/">Featured Listings</a></li>
+      <li><a href="/stark-county-luxury-homes/">Stark County Luxury Homes</a></li>
+      <li><a href="/summit-county-luxury-homes/">Summit County Luxury Homes</a></li>
+      <li><a href="/communities/">Communities</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/contact/">Contact</a></li>
+      <li><a href="/blog/">Blog</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="section">
+  <h1>Advanced Property Search</h1>
+  <form action="#" method="GET">
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location" placeholder="e.g., Akron, OH">
+
+    <label for="price-min">Min Price:</label>
+    <input type="number" id="price-min" name="price-min">
+
+    <label for="price-max">Max Price:</label>
+    <input type="number" id="price-max" name="price-max">
+
+    <label for="beds">Bedrooms:</label>
+    <select id="beds" name="beds">
+      <option value="">Any</option>
+      <option value="1">1+</option>
+      <option value="2">2+</option>
+      <!-- Add more -->
+    </select>
+
+    <label for="baths">Bathrooms:</label>
+    <select id="baths" name="baths">
+      <option value="">Any</option>
+      <option value="1">1+</option>
+      <option value="2">2+</option>
+      <!-- Add more -->
+    </select>
+
+    <button type="submit" class="button">Search</button>
+  </form>
+
+  <p>Results would appear here (fake placeholder for MLS integration).</p>
+</main>
+
+<footer>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/search/">Search</a></li>
+      <li><a href="/property-search/search-form/">Advanced Search</a></li>
+      <li><a href="/property-search/results/?searchtype=3">Search by Map</a></li>
+      <li><a href="/property-search/property-tracker/">Property Tracker</a></li>
+      <li><a href="/featured-listings/">Featured Listings</a></li>
+      <li><a href="/stark-county-luxury-homes/">Stark County Luxury Homes</a></li>
+      <li><a href="/summit-county-luxury-homes/">Summit County Luxury Homes</a></li>
+      <li><a href="/communities/">Communities</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/contact/">Contact</a></li>
+      <li><a href="/blog/">Blog</a></li>
+    </ul>
+  </nav>
+  <p>Contact: <a href="tel:+13301234567">(330) 123-4567</a></p>
+  <p>&copy; 2026 The Tom Bartlebaugh Group. All rights reserved.</p>
+</footer>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
